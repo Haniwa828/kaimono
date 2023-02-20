@@ -12,10 +12,10 @@ const memo_area_put = (parent) => {
         t.textContent = '追加';
         t.addEventListener('click', memo_func_addContent);
     });
-    addButton(memo_area_button, 'button', ['memo_save'], (t) => {
-        t.textContent = '保存';
-        // t.addEventListener('click', memo_func_addContent);
-    });
+    // addButton(memo_area_button, 'button', ['memo_save'], (t) => {
+    //     t.textContent = '保存';
+    //     // t.addEventListener('click', memo_func_addContent);
+    // });
 }
 
 // 項目追加用関数
